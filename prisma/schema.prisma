@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = postgresql://snapshield_owner:jD0ZPKW1qGvd@ep-lingering-union-a2xdlda1.eu-central-1.aws.neon.tech/snapshield?sslmode=require
+  url      = "postgresql://snapshield_owner:jD0ZPKW1qGvd@ep-lingering-union-a2xdlda1.eu-central-1.aws.neon.tech/snapshield?sslmode=require"
 }
 
 enum OrderStatus {
